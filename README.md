@@ -24,11 +24,24 @@ SQL statements are divided into two major categories: data definition language (
 
 ## Data definition language
 
-### Create
+### CREATE
 ```
 CREATE TABLE <table name> ( 
         <attribute name 1> <data type 1>,
         ...
         <attribute name n> <data type n>);
+```
+
+### ALTER
+
+```
+ ALTER TABLE <table name>
+        ADD CONSTRAINT <constraint name> PRIMARY KEY (<attribute list>);
+```
+
+
+### DROP
+```
+  DROP TABLE <table name>;
 ```
 
