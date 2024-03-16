@@ -2,7 +2,7 @@
 
 
 
-A ***Database** is a set of related informations. A collection of integrated records
+A ***Database*** is a set of related informations. A collection of integrated records
 
 A database management system (DBMS) is a set of programs used to define, administer, and process databases and their associated applications
 
@@ -21,9 +21,14 @@ Data are represented as sets of tables, redundant data is used to link records i
 
 SQL statements are divided into two major categories: data definition language (DDL) and data manipulation language (DML). 
 
+
+## Data definition language
+
+### Create
 ```
 CREATE TABLE <table name> ( 
         <attribute name 1> <data type 1>,
         ...
         <attribute name n> <data type n>);
 ```
+
