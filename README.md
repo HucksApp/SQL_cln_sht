@@ -33,7 +33,7 @@ The structure of an entire database is its schema, or conceptual view
 
 
 
-
+# STRUCTURED QUERY LANGUAGE (SQL)
 
 SQL statements are divided into two major categories: data definition language (DDL) and data manipulation language (DML). 
 
