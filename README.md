@@ -28,9 +28,6 @@ Data are represented as sets of tables, redundant data is used to link records i
 * Constraints -> A restriction on what a column may contain
 
 
-Schemas
-The structure of an entire database is its schema, or conceptual view
-
 
 
 # STRUCTURED QUERY LANGUAGE (SQL)
