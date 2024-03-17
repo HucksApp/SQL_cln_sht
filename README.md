@@ -14,7 +14,7 @@ Over the first several decades of computerized database systems, data was stored
 ## Common Database Models
 * The Relational Model
 * The object Model
-* The object-relational model -> Most DBMS(extended) now have support for object models
+* The object-relational model -> Most relational DBMS(extended) now have support for object models
 
 
 ## The Relational Model database system
