@@ -69,3 +69,28 @@ CREATE TABLE <table name> (
   DROP TABLE <table name>;
 ```
 
+
+
+
+
+
+# DATABASE 
+
+## MYSQL
+* server installation
+   * macOS -> `$ brew install mysql`
+* Client installation
+   * python -> `$ pip install mysql`
+* start server -> `$ brew services start mysql`
+
+
+
+
+
+# POSTGRESQL 
+
+* server installation
+   * macOS -> 
+* Client installation
+   * python -> 
+* start server -> 
