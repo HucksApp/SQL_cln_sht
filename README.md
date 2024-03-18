@@ -82,6 +82,7 @@ CREATE TABLE <table name> (
 * Client installation
    * python -> `$ pip install mysql`
 * start server -> `$ brew services start mysql`
+* start cmd interface -> `$ mysql -h <host> -u <user> -p`
 
 
 
