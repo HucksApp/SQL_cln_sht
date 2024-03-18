@@ -12,8 +12,8 @@ Over the first several decades of computerized database systems, data was stored
   *  network database system
 
 ## Common Database Models
-* The Relational Model
-* The object Model
+* The Relational Model  -> 
+* The object Model (Non relational) ->
 * The object-relational model -> Most relational DBMS(extended) now have support for object models
 
 
@@ -27,10 +27,21 @@ Data are represented as sets of tables, redundant data is used to link records i
 * Domains -> An attribute of a relation (A single column) ranges of possible values
 * Constraints -> A restriction on what a column may contain
 
+### Data Types
+* Numerics
+  * *INTEGER*
+  * *SMALLINT*
+  * *BIGINT*
+  * *NUMERIC*
+  * *DECIMAL*
+
+* Strings
+* Booleans
+* Datetimes
+* Intervals
 
 
-
-# STRUCTURED QUERY LANGUAGE (SQL)
+## STRUCTURED QUERY LANGUAGE (SQL)
 
 SQL statements are divided into two major categories: data definition language (DDL) and data manipulation language (DML). 
 
