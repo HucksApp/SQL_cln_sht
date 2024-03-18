@@ -74,7 +74,7 @@ CREATE TABLE <table name> (
 
 
 
-# DATABASE 
+# Common Relational DBMS
 
 ## MYSQL
 * server installation
