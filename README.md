@@ -28,17 +28,46 @@ Data are represented as sets of tables, redundant data is used to link records i
 * Constraints -> A restriction on what a column may contain
 
 ### Data Types
-* Numerics
-  * *INTEGER*
+* Numerics data type
+  * *INTEGER* 
   * *SMALLINT*
   * *BIGINT*
   * *NUMERIC*
-  * *DECIMAL*
-
-* Strings
-* Booleans
-* Datetimes
+  * *DECIMAL* 
+  * *REAL* 
+  * *DOUBLE PRECISION*
+  * *FLOAT*
+  
+* Strings data type
+  * *CHARACTER* ->  sample `CHARACTER (20)`
+  * *VARCHAR* -> VARYING CHARACTERS. sample `VARCHAR (20)`
+  * *CLOB* -> CHARACTER LARGE OBJECT. sample `CLOB (1000000)`
+* media data type
+   * *BLOB* -> BINARY LARGE OBJECT. sample `BLOB (1000000)`
+ 
+* Booleans  data type
+   * *BOOLEAN*
+ 
+* *NULL* data type
+  
+* Datetimes data type
+   * *DATE*
+   *  *TIME WITH TIME ZONE* -> `TIME (3) WITH TIME ZONE`
+   * *TIME WITHOUT TIME ZONE* -> `TIME (2) WITHOUT TIME ZONE`
+   * *TIMESTAMP WITHOUT TIME ZONE*  -> `TIMESTAMP WITHOUT TIME ZONE (0)`
+   * *TIMESTAMP WITH TIME ZONE* -> `TIMESTAMP WITH TIME ZONE (0)`
+ 
 * Intervals
+  * *INTERVAL* -> `INTERVAL DAY`
+* *ROW* types -> Allows you nest a row within a row.`CREATE ROW TYPE <row type>(<nexted row 1> <nexted row 1> ...)` now use in table defination `CREATE TABLE <table name> ( <row defination>    <row defination : <row type>> ...)`
+* Collection types
+  * *ARRAY*
+  * *MULTISET*
+
+* *REF* types
+* User-defined types
+  * *DISTINCT*
+* Structured types 
 
 
 ## STRUCTURED QUERY LANGUAGE (SQL)
