@@ -61,14 +61,14 @@ Data are represented as sets of tables, redundant data is used to link records i
   * *INTERVAL* -> `INTERVAL DAY`
 * *ROW* types -> Allows you nest a row within a row.`CREATE ROW TYPE <row type>(<nexted row 1> <nexted row 1> ...)` now use in table defination `CREATE TABLE <table name> ( <row defination>    <row defination : <row type>> ...)`
 * Collection types
-  * *ARRAY*
-  * *MULTISET*
+  * *ARRAY* -> `<Column Defination  ARRAY [size]>`
+  * *MULTISET* ->
 
 * *REF* types
-* User-defined types
-  * *DISTINCT*
+* User-defined types (UDTs)
+  * *DISTINCT* -> `CREATE DISTINCT TYPE USdollar AS DECIMAL (9,2) ;`
 * Structured types 
-
+  * `CREATE TYPE <type name> AS <structure_member1_defination, structure_member2_defination, ...>`
 
 ## STRUCTURED QUERY LANGUAGE (SQL)
 
