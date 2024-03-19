@@ -38,31 +38,42 @@ Data are represented as sets of tables, redundant data is used to link records i
   * *REAL* 
   * *DOUBLE PRECISION*
   * *FLOAT*
+  
 * Strings data type
   * *CHARACTER* ->  sample `CHARACTER (20)`
   * *VARCHAR* -> VARYING CHARACTERS. sample `VARCHAR (20)`
   * *CLOB* -> CHARACTER LARGE OBJECT. sample `CLOB (1000000)`
+   
 * media data type
   * *BLOB* -> BINARY LARGE OBJECT. sample `BLOB (1000000)`
+ 
 * Booleans  data type
   * *BOOLEAN*
+  
 * *NULL* data type
+ 
 * Datetimes data type
   * *DATE*
   *  *TIME WITH TIME ZONE* -> `TIME (3) WITH TIME ZONE`
   * *TIME WITHOUT TIME ZONE* -> `TIME (2) WITHOUT TIME ZONE`
   * *TIMESTAMP WITHOUT TIME ZONE*  -> `TIMESTAMP WITHOUT TIME ZONE (0)`
   * *TIMESTAMP WITH TIME ZONE* -> `TIMESTAMP WITH TIME ZONE (0)`
+    
 * Intervals
   * *INTERVAL* -> `INTERVAL DAY`
+  
 * *ROW* types -> Allows you nest a row within a row.`CREATE ROW TYPE <row type>(<nexted row 1> <nexted row 1> ...)` now use in table defination `CREATE TABLE <table name> ( <row defination>    <row defination : <row type>> ...)`
+
 * Collection types
   * *ARRAY* -> `<Column Defination  ARRAY [size]>`
   * *MULTISET* ->
+  
 * *REF* types
+ 
 * User-defined types (UDTs)
   * *DISTINCT* -> `CREATE DISTINCT TYPE <type_name> AS <Data_type_defination> ;`
   * Structured types -> `CREATE TYPE <type name> AS <structure_member1_defination, structure_member2_defination, ...>;`
+
 
 SQL statements are divided into 
 * Data definition language (DDL)
