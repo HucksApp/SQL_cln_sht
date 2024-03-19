@@ -67,8 +67,7 @@ Data are represented as sets of tables, redundant data is used to link records i
 * *REF* types
 * User-defined types (UDTs)
   * *DISTINCT* -> `CREATE DISTINCT TYPE <type_name> AS <Data_type_defination> ;`
-* Structured types 
-  * `CREATE TYPE <type name> AS <structure_member1_defination, structure_member2_defination, ...>`
+  * Structured types ->  `CREATE TYPE <type name> AS <structure_member1_defination, structure_member2_defination, ...>`
 
 ## STRUCTURED QUERY LANGUAGE (SQL)
 
