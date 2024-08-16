@@ -133,6 +133,6 @@ CREATE TABLE <table name> (
 * Passed to the script using the -v option ( -v variable=value)
 * Set as environment variables before the script is run 
   ### Usage
-  $(Variable)
+  $(Variable);
   
 
