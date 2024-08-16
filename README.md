@@ -121,5 +121,18 @@ CREATE TABLE <table name> (
    * macOS -> 
 * Client installation
    * python -> 
-* start server 
+* start server
+
+
+------------------------------------------------------------------------------
+
+
+# SQL server's sqlcmd supports script variables, which can be set in one of three ways:
+
+* Locally in the script using :setvar (:setvar variable value)
+* Passed to the script using the -v option ( -v variable=value)
+* Set as environment variables before the script is run 
+  ### Usage
+  $(Variable)
+  
 
